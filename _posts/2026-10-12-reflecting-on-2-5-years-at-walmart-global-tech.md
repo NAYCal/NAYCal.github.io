@@ -77,7 +77,7 @@ This was a challenging 0-to-1 initiative because we were developing the product 
 **Highlights**
 
 - Helped build a new third-party seller forecasting platform, owning core infrastructure from initial design through production launch.
-- Owned **23 data ingestion pipelines orchestrated across two Airflow DAGs**, supporting the delivery of multiple model inputs into the forecasting platform.
+- **Inventory Placement:** Helped build a third-party seller forecasting platform from the ground up, working across the data path end to end: 23 distinct data sources, multiple model inputs, and the launch of model outputs.
 - Contributed to launching model outputs and refactored DAG operations, schemas, and peak-period processing logic to support reliable production workflows.
 - Worked across engineering, data science, and product to integrate upstream data sources and meet forecasting deadlines.
 - Helped establish the infrastructure needed to scale the platform as the number of supported sellers grew.
