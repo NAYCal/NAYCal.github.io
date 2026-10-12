@@ -20,10 +20,10 @@ This focus on validation extended beyond formal research. Even smaller side proj
 
 Further, my work in computational photography highlighted another challenge in validation, especially as machine learning systems become integral parts of daily life. When developing convolutional neural networks (CNNs) to generate images from novel angles, traditional metrics like Structural Similarity Index (SSIM) are usually sufficient, provided reference images exist. However, the problem deepens when generating views that have no real-world reference. What happens when outputs with visible artifacts inexplicably score higher on automated validation metrics than visually cleaner ones?
 
-My experience developing Neural Radiance Fields (NeRF), as illustrated below, and my ongoing research into techniques such as Gaussian Splatting, have reinforced that human judgment remains an indispensable part of validation, even as we strive toward robust automation.
+My experience developing Neural Radiance Fields (NeRF), as illustrated below, and my ongoing research into techniques such as Gaussian Splattering, have reinforced that human judgment remains an indispensable part of validation, even as we strive toward robust automation.
 
 <figure>
-  <img src="{{ '/assets/img/nerf-lego-turntable.gif' | relative_url }}" alt="Turntable animation of a Lego bulldozer rendered by a trained NeRF" width="200" height="200" loading="lazy">
+  <img src="{{ '/assets/img/nerf-lego-turntable.gif' | relative_url }}" alt="Turntable animation of a Lego bulldozer rendered by a trained NeRF" width="200" height="200">
   <figcaption>My NeRF results from undergraduate. <a href="https://github.com/NAYCal/Neural-Radiance-Field-">Code on GitHub</a>.</figcaption>
 </figure>
 

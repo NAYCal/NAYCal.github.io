@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if page.title %}{{ page.title | escape }} · {{ site.title | escape }}{% else %}{{ site.title | escape }} · Software Engineer{% endif %}</title>
-  <meta name="description" content="{{ page.summary | default: site.description | escape }}">
+  <title>{% if page.title %}{{ page.title }} · {{ site.title }}{% else %}{{ site.title }} · Software Engineer{% endif %}</title>
+  <meta name="description" content="{{ page.summary | default: site.description }}">
   <meta name="author" content="{{ site.author }}">
   {% feed_meta %}
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}profile{% endif %}">
-  <meta property="og:title" content="{{ page.title | default: site.title | escape }}">
-  <meta property="og:description" content="{{ page.summary | default: site.description | escape }}">
+  <meta property="og:title" content="{{ page.title | default: site.title }}">
+  <meta property="og:description" content="{{ page.summary | default: site.description }}">
   <meta property="og:url" content="{{ page.url | absolute_url }}">
   {%- capture avatar %}{% include avatar-url.html %}{% endcapture %}
   <meta property="og:image" content="{{ avatar | strip | absolute_url }}">

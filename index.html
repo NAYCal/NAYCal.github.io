@@ -13,7 +13,7 @@ layout: default
       <article class="entry">
         <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
         <p>{{ post.summary }}</p>
-        <p class="meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time> &middot; {% include reading-time.html content=post.content %}</p>
+        <p class="meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>{% assign words = post.content | number_of_words %} &middot; {{ words | divided_by: 220 | plus: 1 }} min read</p>
       </article>
       {%- endfor %}
     </section>
