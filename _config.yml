@@ -5,7 +5,8 @@ baseurl: ""
 author: Alexander Ng
 github_username: NAYCal
 linkedin_url: "https://www.linkedin.com/in/alexander-ng-cal/"
-avatar: "https://avatars.githubusercontent.com/u/55778917?v=4"
+avatar: "https://avatars.githubusercontent.com/u/55778917?v=4"   # fallback
+avatar_file: /assets/img/alexander.jpg                                 # used instead when the file exists
 location: Bay Area, California
 
 permalink: /blogs/:title/

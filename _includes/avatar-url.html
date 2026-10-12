@@ -1,0 +1,1 @@
+{%- assign local = site.static_files | where: "path", site.avatar_file | first -%}{%- if local %}{{ site.avatar_file | relative_url }}{% else %}{{ site.avatar }}{% endif -%}
