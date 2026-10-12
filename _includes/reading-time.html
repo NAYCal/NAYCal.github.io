@@ -1,0 +1,3 @@
+{%- comment %}Usage: include reading-time.html content=post.content{% endcomment -%}
+{%- assign words = include.content | number_of_words -%}
+{{ words | plus: 219 | divided_by: 220 | at_least: 1 }} min read
