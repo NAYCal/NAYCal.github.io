@@ -1,0 +1,39 @@
+# Add a project by appending an entry. Newest or most important first.
+- title: "Neural Radiance Fields (NeRF)"
+  context: "UC Berkeley CS 180, Fall 2023"
+  summary: "Fit a neural field to 2D images with sinusoidal positional encoding, then trained a full NeRF from multi-view calibrated images of the Lego scene. Implemented ray generation, stratified sampling along rays, and a PyTorch volume renderer to synthesize novel views."
+  tech: [Python, PyTorch, Jupyter]
+  image: /assets/img/nerf-lego-render.jpg
+  image_alt: "Novel view of a Lego bulldozer rendered by the trained NeRF"
+  links:
+    - label: "Code on GitHub"
+      url: "https://github.com/NAYCal/Neural-Radiance-Field-"
+
+- title: "Fine-Tuning GPT-2 for Historical Comprehension"
+  context: "UC Berkeley CS 182, Fall 2023 · team project"
+  summary: "Fine-tuned GPT-2 with Hugging Face and PyTorch on a curated prompt and completion dataset to generate historically plausible narratives, with a validation notebook and final paper covering diversity and overfitting."
+  tech: [Python, PyTorch, Hugging Face, CUDA]
+  badge: "GPT"
+  links:
+    - label: "Code on GitHub"
+      url: "https://github.com/NAYCal/GPT-Histories"
+    - label: "Final paper (PDF)"
+      url: "https://github.com/user-attachments/files/18615329/finetuning_history_182_final_project.pdf"
+
+- title: "BigPixels"
+  context: "Personal project, Dec 2023 to Jan 2024"
+  summary: "A Python library for computer vision and computational photography with matching NumPy and PyTorch implementations. Includes Gaussian and Laplacian stacks, hybrid images, multi-resolution blending, sharpening and edge detection, plus a glass-plate image colorizer using pyramid alignment."
+  tech: [Python, NumPy, PyTorch]
+  badge: "PY"
+  links:
+    - label: "Code on GitHub"
+      url: "https://github.com/NAYCal/BigPixels"
+
+- title: "Barli"
+  context: "Personal project, 2025 · in progress"
+  summary: "A terminal task board written in Kotlin. A state-machine driven command-line app on top of SQLDelight-backed repositories for users, epics, tasks and comments, with unit tests across the repository layer."
+  tech: [Kotlin, SQLDelight, Coroutines, Gradle]
+  badge: "KT"
+  links:
+    - label: "Code on GitHub"
+      url: "https://github.com/NAYCal/Barli"

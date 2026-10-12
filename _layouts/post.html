@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<article>
+  <header class="post-header">
+    <div class="kicker"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time> &middot; {% assign words = content | number_of_words %}{{ words | divided_by: 220 | plus: 1 }} min read</div>
+    <h1>{{ page.title }}</h1>
+    {%- if page.summary %}<p class="summary">{{ page.summary }}</p>{% endif %}
+    <div class="author-line">
+      <img src="{{ site.avatar }}" alt="" width="42" height="42">
+      <div><div class="name">{{ site.author }}</div><div class="sub">Software engineer &middot; {{ site.location }}</div></div>
+    </div>
+    {%- if page.source_url %}
+    <p class="source-note">Originally published on <a href="{{ page.source_url }}" rel="noopener">{{ page.source_name | default: "another site" }}</a>.</p>
+    {%- endif %}
+  </header>
+
+  <div class="prose">
+    {{ content }}
+  </div>
+
+  <footer class="post-footer">
+    {% include author-card.html %}
+    <p><a href="{{ '/' | relative_url }}">&larr; All blogs</a></p>
+  </footer>
+</article>

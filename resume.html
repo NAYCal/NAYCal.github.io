@@ -1,0 +1,23 @@
+---
+layout: default
+title: Resume
+permalink: /resume/
+wide: true
+description: Resume of Alexander Ng, software engineer.
+---
+<div class="resume-head">
+  <h1>Resume</h1>
+  <div class="btn-row">
+    <a class="btn primary" href="{{ '/assets/Alexander_Ng_Resume.pdf' | relative_url }}" download>Download PDF</a>
+    <a class="btn" href="{{ '/assets/Alexander_Ng_Resume.pdf' | relative_url }}" target="_blank" rel="noopener">Open in new tab</a>
+  </div>
+</div>
+
+<div class="pdf-frame">
+  <object data="{{ '/assets/Alexander_Ng_Resume.pdf' | relative_url }}#view=FitH" type="application/pdf" aria-label="Resume PDF viewer">
+    <p class="pdf-fallback">
+      Your browser can't display PDFs inline.
+      <a href="{{ '/assets/Alexander_Ng_Resume.pdf' | relative_url }}">Download the resume (PDF)</a>.
+    </p>
+  </object>
+</div>

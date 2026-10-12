@@ -1,0 +1,24 @@
+title: Alexander Ng
+description: Software engineer specializing in large-scale distributed systems and data infrastructure.
+url: "https://naycal.github.io"
+baseurl: ""
+author: Alexander Ng
+github_username: NAYCal
+linkedin_url: "https://www.linkedin.com/in/alexander-ng-cal/"
+avatar: "https://avatars.githubusercontent.com/u/55778917?v=4"
+location: Bay Area, California
+
+permalink: /blogs/:title/
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+
+plugins:
+  - jekyll-feed
