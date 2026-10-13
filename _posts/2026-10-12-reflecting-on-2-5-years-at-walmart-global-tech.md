@@ -112,7 +112,7 @@ The goal was to make integration testing easier to configure, more consistent ac
 - Investigated concurrency, threading, and event-processing issues across service boundaries.
 - Automated infrastructure scaling and configuration workflows for disaster recovery.
 - Improved observability and diagnostic workflows so that engineers could investigate failures more independently.
-- Shared integration-testing findings and setup guidance with engineering teams adopting the tooling, and authored handbooks to accelerate onboarding.
+- Shared integration-testing findings and setup guidance with engineering teams adopting the integration testing tooling, and authored handbooks to accelerate onboarding.
 
 These projects reinforced an important lesson: good engineering is not just about making a system work. It is about understanding the environment in which that system operates and the people and processes that depend on it.
 
