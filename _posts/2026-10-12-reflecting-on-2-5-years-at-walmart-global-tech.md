@@ -8,7 +8,7 @@ tags: [Career, Distributed Systems, Data Infrastructure, Supply Chain]
 
 After 2.5 years, three teams, and multiple 0-to-1 product launches at Walmart Global Tech, I am preparing to move on to the startup space. My last day is October 13.
 
-Over this time, I have contributed approximately **120,000+ lines added, 60,000+ lines removed, and 1,500+ commits across production systems**, spanning purchase order processing, inventory forecasting, inventory placement, and engineering infrastructure.
+Over this time, I contributed 120,000+ lines of code, removed 60,000+ lines, and made 1,500+ commits across production systems, opened 335 PRs, and reviewed 240 PRs across 41 repositories. My work spanned purchase order processing, inventory forecasting, inventory placement, and engineering infrastructure.
 
 Before starting this next chapter, I wanted to reflect on what we have built, the problems we have solved, and how much I have grown as an engineer. I am incredibly grateful for the leadership, mentorship, and collaboration I have experienced at Walmart. I have had the opportunity to take projects from initial design through production, tackle difficult distributed systems problems, and work alongside people who consistently pushed me to become a better engineer.
 
