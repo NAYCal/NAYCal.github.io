@@ -76,7 +76,7 @@ This was a challenging 0-to-1 initiative because we were developing the product 
 
 **Highlights**
 
-- Helped build a new third-party seller forecasting platform, owning core infrastructure from initial design through production launch.
+- Built core infrastructure for a new third-party seller forecasting platform as part of a four-engineer team, from initial design through production launch.
 - **Inventory Placement:** Helped build a third-party seller forecasting platform from the ground up, working across the data path end to end: 23 distinct data sources, multiple model inputs, and the launch of model outputs.
 - Contributed to launching model outputs and refactored DAG operations, schemas, and peak-period processing logic to support reliable production workflows.
 - Worked across engineering, data science, and product to integrate upstream data sources and meet forecasting deadlines.
