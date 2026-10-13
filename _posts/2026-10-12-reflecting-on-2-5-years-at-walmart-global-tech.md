@@ -63,7 +63,7 @@ The part I am most proud of is taking a business-critical workflow that depended
 <div class="footprint" markdown="1">
 **Engineering footprint:** Millions of overrides processed per day, 10,000+ lines of code, 550 commits, and over 95% test coverage.
 
-**Technologies:** Java, Apache Spark, Apache Airflow, REST APIs, Google Cloud Platform.
+**Technologies:** Java, Python, Apache Spark, Apache Airflow, REST APIs, Google Cloud Platform.
 </div>
 
 ## 3. Inventory Placement: Building Infrastructure for Faster Delivery
@@ -86,7 +86,7 @@ This project strengthened my experience building data infrastructure for machine
 <div class="footprint" markdown="1">
 **Engineering footprint:** 300+ PRs authored and merged, and 40,000+ lines of code added.
 
-**Technologies:** Java, Spring Boot, Apache Spark, Scala, Apache Airflow, cloud storage, and distributed data pipelines.
+**Technologies:** Java, Python, Spring Boot, Apache Spark, Scala, Apache Airflow, cloud storage, and distributed data pipelines.
 </div>
 
 ## 4. Engineering Beyond Individual Projects
