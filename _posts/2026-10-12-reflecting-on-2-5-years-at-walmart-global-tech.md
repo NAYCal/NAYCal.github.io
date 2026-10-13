@@ -106,12 +106,12 @@ The goal was to make integration testing easier to configure, more consistent ac
 
 ### Production Reliability and Operational Improvements
 
-- Supporting on-call investigations and production debugging across multiple services.
-- Helping with data-source migrations, schema changes, and downstream compatibility.
-- Fixing repository-wide timezone synchronization issues that caused discrepancies between development and production.
-- Investigating concurrency, threading, and event-processing issues across service boundaries.
-- Automating infrastructure scaling and configuration workflows for disaster recovery.
-- Improving observability and diagnostic workflows so that engineers could investigate failures more independently.
+- Supported on-call investigations and production debugging across multiple services.
+- Helped with data-source migrations, schema changes, and downstream compatibility.
+- Fixed repository-wide timezone synchronization issues that caused discrepancies between development and production.
+- Investigated concurrency, threading, and event-processing issues across service boundaries.
+- Automated infrastructure scaling and configuration workflows for disaster recovery.
+- Improved observability and diagnostic workflows so that engineers could investigate failures more independently.
 - Shared integration-testing findings and setup guidance with engineering teams adopting the tooling, and authored handbooks to accelerate onboarding.
 
 These projects reinforced an important lesson: good engineering is not just about making a system work. It is about understanding the environment in which that system operates and the people and processes that depend on it.
