@@ -101,6 +101,7 @@ I designed a reusable, configuration-driven integration-testing framework to sim
 - Enabled existing unit tests to be orchestrated as integration tests through a single configuration file, without requiring additional test code.
 - Evaluated existing integration-testing approaches and patterns across multiple engineering teams to inform the framework's design.
 - Addressed common friction points in multi-job testing, including dependency management and Spark local-run configuration.
+- Shared integration-testing findings and setup guidance with engineering teams adopting the tooling, and authored handbooks to accelerate onboarding.
 
 The goal was to make integration testing easier to configure, more consistent across workflows, and more reusable across teams.
 
