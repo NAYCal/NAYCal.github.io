@@ -118,17 +118,17 @@ These projects reinforced an important lesson: good engineering is not just abou
 
 ## 5. Looking Back
 
-Over the past 2.5 years, I have had the opportunity to work across three teams, take multiple initiatives from 0 to 1, and contribute to production systems supporting Walmart's supply chain at scale.
+One of the biggest lessons I am taking away from Walmart is that building reliable systems requires understanding the entire process they support, not just the code you own.
 
-More importantly, I have grown from contributing to existing systems to designing and owning end-to-end workflows, reasoning through failure modes, optimizing data-intensive workloads, and coordinating delivery across engineering, data science, and product teams.
+At Walmart’s scale, a seemingly small technical decision can affect inventory availability, replenishment, and fulfillment across the supply chain. A pipeline can be correct in isolation and still fail to deliver what the business needs because an upstream source arrives late, a downstream job misses its deadline, or a failure propagates across services.
 
-I am leaving with a much deeper understanding of distributed systems, data infrastructure, production reliability, and the engineering discipline required to operate at Walmart's scale. I am especially grateful for the opportunities to take on unfamiliar problems, learn from experienced engineers, and see the systems I worked on make it into production.
+These experiences changed how I think about engineering ownership. Performance and correctness are important, but so are operational constraints, failure modes, and the dependencies between systems. Understanding how these pieces interact is essential to building software that works reliably in production.
 
 One lesson that has stayed with me:
 
 > At this scale, you cannot separate the technical system from the business process.
 
-A pipeline is not just a collection of jobs, and a forecasting model is not just an output. They are part of larger workflows with dependencies, deadlines, operational constraints, and people relying on the results. Building reliable systems means understanding that entire picture, not just the code.
+A pipeline is not just a collection of jobs, and a forecasting model is not just an output. Both are part of larger workflows with deadlines, dependencies, and people relying on the results. The challenge is not simply to make each component work, but to understand how the entire system comes together to meet the needs it was built to serve.
 
 ## Thank You
 
