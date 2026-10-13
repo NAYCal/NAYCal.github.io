@@ -84,7 +84,7 @@ This was a challenging 0-to-1 initiative because we were developing the product 
 This project strengthened my experience building data infrastructure for machine learning systems, particularly where upstream data availability, processing deadlines, reliability, and model requirements all need to align.
 
 <div class="footprint" markdown="1">
-**Engineering footprint:** 300 PRs authored and merged, and 31,000+ lines of code added.
+**Engineering footprint:** 300+ PRs authored and merged, and 40,000+ lines of code added.
 
 **Technologies:** Java, Spring Boot, Apache Spark, Scala, Apache Airflow, cloud storage, and distributed data pipelines.
 </div>
