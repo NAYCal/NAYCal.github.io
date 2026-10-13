@@ -76,7 +76,7 @@ This was a challenging 0-to-1 initiative because we were developing the product 
 
 **Highlights**
 
-- Built core infrastructure for a third-party seller forecasting platform as part of a four-engineer team, owning the data pipeline from initial design through production launch, including integration of 23 distinct data sources, model input preparation, and model output delivery.
+- Built a 0-to-1 third-party seller forecasting platform as part of a four-engineer team, contributing across the pipeline from initial design to production launch, including integration of 23 upstream data sources, model input preparation, and model output delivery.
 - Contributed to launching model outputs and refactored DAG operations, schemas, and peak-period processing logic to support reliable production workflows.
 - Worked across engineering, data science, and product to integrate upstream data sources and meet forecasting deadlines.
 - Helped establish the infrastructure needed to scale the platform as the number of supported sellers grew.
