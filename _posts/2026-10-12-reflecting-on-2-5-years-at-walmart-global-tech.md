@@ -8,11 +8,11 @@ tags: [Career, Distributed Systems, Data Infrastructure, Supply Chain]
 
 After 2.5 years, three teams, and multiple 0-to-1 product launches at Walmart Global Tech, I am preparing to move on to the startup space. My last day is October 13.
 
-Over this time, I contributed 120,000+ lines of code, removed 60,000+ lines, and made 1,500+ commits across production systems, opened 335 PRs, and reviewed 240 PRs across 41 repositories. My work spanned purchase order processing, inventory forecasting, inventory placement, and engineering infrastructure.
+Over this time, I contributed 120,000+ lines of code, removed 60,000+ lines, and made 1,500+ commits across production systems, opened 335 PRs, and reviewed 240 PRs across 41 repositories. My work spanned purchase order processing, inventory targets, inventory placement, and engineering infrastructure.
 
 Before starting this next chapter, I wanted to reflect on what we have built, the problems we have solved, and how much I have grown as an engineer. I am incredibly grateful for the leadership, mentorship, and collaboration I have experienced at Walmart. I have had the opportunity to take projects from initial design through production, tackle difficult distributed systems problems, and work alongside people who consistently pushed me to become a better engineer.
 
-Across Order Management Systems, Inventory Forecasting, and Inventory Placement, I worked on three teams supporting different parts of Walmart's supply chain. Here are the projects and milestones I am most proud of.
+Across Order Management Systems, Inventory Targets, and Inventory Placement, I worked on three teams supporting different parts of Walmart's supply chain. Here are the projects and milestones I am most proud of.
 
 ## 1. Order Management Systems: Rebuilding Purchase Order Processing
 
@@ -44,9 +44,9 @@ This project gave me the opportunity to help rebuild a production-critical syste
 **Technologies:** Java, Spring Boot, PostgreSQL, DB2, Cassandra, Apache Kafka, GraphQL, Kubernetes.
 </div>
 
-## 2. Inventory Forecasting: Automating Store-Level Forecast Overrides
+## 2. Inventory Targets: Automating Store-Level Forecast Overrides
 
-On the Inventory Forecasting team, I worked on systems that predict safety-stock requirements for Walmart US. These predictions help determine the inventory needed to support downstream replenishment decisions.
+On the Inventory Targets team, I worked on systems that predict safety-stock requirements for Walmart US. These predictions help determine the inventory needed to support downstream replenishment decisions.
 
 My main 0-to-1 project was an automated pipeline for processing store-level inventory overrides, replacing a previously manual workflow with a more consistent and maintainable system. The manual process was time-consuming and error-prone. I took ownership of turning that workflow into an automated, production-ready system.
 
